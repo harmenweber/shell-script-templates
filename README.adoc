@@ -1,0 +1,7 @@
+= README
+:author: Harmen Weber
+:email: harmen.weber@gmail.com
+
+This repository holds resources that I use when I write shell scripts.
+It includes functions, templates, examples and whatever else might be handy.
+Please refer to the https://docs.harmen.ch/shell-script-templates/index.html[documentation] to learn more.
