@@ -19,7 +19,7 @@
 
 # Define constants for colors and font style.
 # Ensure the file can be sourced multiple times without errors.
-if [ "${__LOGGING_SH_CONSTANTS_LOADED:-}" != "true" ]; then
+if [ "${__LOGGING_CONSTANTS_LOADED:-}" != "true" ]; then
   # Color definitions
   readonly reset=$(tput sgr0)
   readonly blue=$(tput setaf 4)
@@ -37,7 +37,7 @@ if [ "${__LOGGING_SH_CONSTANTS_LOADED:-}" != "true" ]; then
   readonly start_underline=$(tput smul)
   readonly stop_underline=$(tput rmul)
 fi
-__LOGGING_SH_CONSTANTS_LOADED="true"
+__LOGGING_CONSTANTS_LOADED="true"
 
 function areColorsSupported() {
   # Check if terminal supports at least 256 colors
